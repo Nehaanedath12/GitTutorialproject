@@ -32,9 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         System.out.println("This is data commited in second") ;
 
-        akjsdghjasdg;
-
-
+        System.out.println("This is data commited in fourth") ;
 
 
     }
