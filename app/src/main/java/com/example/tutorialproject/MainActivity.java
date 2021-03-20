@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         b1 = findViewById(R.id.button);
      
 
+        System.out.println("Local State") ;
+
+
+
+
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("This is data commited in second") ;
 
         System.out.println("This is data commited in fourth") ;
+
+        System.out.println("Experimental Branch") ;
 
 
     }
