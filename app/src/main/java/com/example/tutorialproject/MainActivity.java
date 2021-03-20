@@ -26,13 +26,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar snackbar = Snackbar.make(b1,"Sample Snack Bar",Snackbar.LENGTH_LONG);
-                snackbar.show();
+        b1.setOnClickListener(view -> {
+            Snackbar snackbar = Snackbar.make(b1,"Sample Snack Bar",Snackbar.LENGTH_LONG);
+            snackbar.show();
 
-            }
         });
 
         System.out.println("This is data commited in second") ;
